@@ -152,7 +152,7 @@ class SnippetTitleColumn(TitleColumn):
 
 
 class IndexView(generic.IndexViewOptionalFeaturesMixin, generic.IndexView):
-    results_template_name = None
+    results_template_name = "wagtailsnippets/snippets/index_results.html"
     view_name = "list"
     index_results_url_name = None
     delete_url_name = None
